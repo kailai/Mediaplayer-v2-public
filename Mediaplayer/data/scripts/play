@@ -1,0 +1,6 @@
+#!/bin/sh
+script=$HOME/Mediaplayer/startup/start_all.sh
+if [ -f $script ]
+then
+	watch -n 300 $script
+fi

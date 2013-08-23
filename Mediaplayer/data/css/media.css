@@ -1,0 +1,174 @@
+h2 {
+	margin-top: 2em;
+}
+
+.lead {
+	margin-bottom: 2em;
+}
+
+#message_div {
+	position: absolute;
+	top: 2em;
+}
+
+#preview_screen {
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0;
+	width: 100%;
+	background-color: #999;
+	z-index: -999;
+}
+
+.tabbable {
+	height: 100%;
+}
+
+#select_btn_grp {
+	height: 30px;
+	margin-left: 1em;
+}
+
+#server_message {
+	position: relative;
+	margin-top: 5em;
+	width: 98%;
+	height: 9em;
+	resize: none;
+}
+
+.pull-left {
+	margin-left: 1em;
+}
+
+#clear_button {
+	margin-left: 1em;
+}
+
+#save_button {
+	margin-left: 0.5em;
+}
+
+#interval_div {
+	display: none;
+}
+
+.input-cycle {
+	width: 2em;
+}
+
+.interval_form {
+	margin: 0;
+}
+
+#saved_playlists_div {
+	margin-top: 1em;
+}
+
+.scr_div {
+	margin-bottom: 1em;
+	width: 9em;
+	height: 9em;
+	background: url('../media/screen.png');
+	background-size: cover;
+}
+
+#rotate_normal {
+	background: url('../media/rotate-normal.png');
+	background-size: cover;
+}
+
+#rotate_left {
+	background: url('../media/rotate_left.png');
+	background-size: cover;
+}
+
+#rotate_right {
+	background: url('../media/rotate_right.png');
+	background-size: cover;
+}
+
+.rotate-btns {
+	margin-top: 2em;
+}
+
+.player-btn-toolbar {
+	margin-top: 2em;
+}
+
+#screen_table {
+	margin-bottom: 0;
+}
+
+.rotate_button {
+	padding: 12px 12px;
+}
+
+.screen_info {
+	color: #dddddd;
+	margin-top: -0.8em
+}
+
+.screen_status_on {
+	font-weight: bold;
+	color: #62FF00;
+}
+
+.screen_status_off {
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.screen_id {
+	font-weight: bold;
+}
+
+#schedule_info_div {
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+#schedule_div {
+	margin-top: 1em;
+}
+
+.day_picker {
+	margin-left: 2em;
+}
+
+#player_table td {
+	border-top: none;
+}
+
+.drop-hover {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 5px solid #49afcd;
+}
+
+.curr_playlist {
+	color: #111111;
+	margin-top: 3.2em;
+}
+
+.new_playlist_drop {
+	width: 9em;
+	height: 11em;
+	background: #CEEAF5;
+}
+
+.curr_playlist_drop {
+	width: 9em;
+	height: 11em;
+	background: #e6e6e6;
+}
+
+.ui-draggable:hover {
+	cursor: pointer;
+}
+
+.save_form_margin {
+	margin-left: 2em;
+}

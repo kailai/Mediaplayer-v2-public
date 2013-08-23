@@ -1,0 +1,11 @@
+#!/bin/sh
+script=$HOME/Mediaplayer/startup/screen.sh
+log=$HOME/Mediaplayer/startup/log/xorg_change
+xorg_log=/var/log/Xorg.0.log
+screen_watcher=$HOME/Mediaplayer/data/scripts/screen_watcher
+key="Allocate new frame buffer"
+if [ -f $script ]
+then
+	$script && sleep 2 && $script && echo $(grep -c "$key" $xorg_log) > $log
+	watch -n 300 $screen_watcher
+fi

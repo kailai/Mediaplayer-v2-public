@@ -1,0 +1,10 @@
+#!/bin/sh
+script=$HOME/Mediaplayer/startup/screen.sh
+log=$HOME/Mediaplayer/startup/log/xorg_change
+xorg_log=/var/log/Xorg.0.log
+key="Allocate new frame buffer"
+if [ -f $script ]
+then
+	new_count=$(grep -c "$key" $xorg_log) &&
+	if [ $new_count -gt $(cat $log) ]; then $script && echo $new_count > $log; fi
+fi
